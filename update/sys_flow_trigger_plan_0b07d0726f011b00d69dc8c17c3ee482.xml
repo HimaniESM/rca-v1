@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_flow_trigger_plan">
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>ae5514326f011b00d69dc8c17c3ee461</plan_id>
+        <snapshot>3a07d0726f011b00d69dc8c17c3ee45b</snapshot>
+        <sys_class_name>sys_flow_trigger_plan</sys_class_name>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-03-28 06:11:46</sys_created_on>
+        <sys_id>0b07d0726f011b00d69dc8c17c3ee482</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>8b07d0726f011b00d69dc8c17c3ee480</sys_name>
+        <sys_package display_value="RCA Template" source="x_infte_rca_templa">443b91ff6f349300d69dc8c17c3ee407</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCA Template">443b91ff6f349300d69dc8c17c3ee407</sys_scope>
+        <sys_update_name>sys_flow_trigger_plan_0b07d0726f011b00d69dc8c17c3ee482</sys_update_name>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-03-28 06:11:46</sys_updated_on>
+        <trigger display_value="">8b07d0726f011b00d69dc8c17c3ee480</trigger>
+    </sys_flow_trigger_plan>
+</record_update>

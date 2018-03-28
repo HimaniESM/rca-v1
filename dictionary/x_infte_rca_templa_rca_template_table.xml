@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="RCA Template Table" max_length="40" name="x_infte_rca_templa_rca_template_table" sizeclass="27" type="collection">
+        <element label="Action Taken" max_length="100" name="action_taken" type="string"/>
+        <element label="Analysis" max_length="100" name="analysis" type="string"/>
+        <element label="Analysis Completed By" max_length="32" name="analysis_completed_by" reference="sys_user" type="reference"/>
+        <element label="Authorization/Approval by Problem Manager" max_length="40" name="authorization_approval_by_problem_manager" type="boolean"/>
+        <element label="Business Impact" max_length="20" name="business_impact" type="currency"/>
+        <element label="Failing Component" max_length="100" name="failing_component" type="string"/>
+        <element label="Failing System" max_length="100" name="failing_system" type="string"/>
+        <element label="Groups Involved" max_length="4000" name="groups_involved" reference="sys_user_group" type="glide_list"/>
+        <element label="Identified Root Cause" max_length="100" name="identified_root_cause" type="string"/>
+        <element label="Impacted Components" max_length="100" name="impacted_components" type="string"/>
+        <element label="Outage Hours" max_length="100" name="outage_hours" type="string"/>
+        <element label="Problem Statement" max_length="100" name="problem_statement" type="string"/>
+        <element label="RCA Completion Date" max_length="40" name="rca_completion_date" type="glide_date"/>
+        <element label="Recommended Solution" max_length="100" name="recommended_solution" type="string"/>
+        <element label="Solution Implementation Date" max_length="40" name="solution_implementation_date" type="glide_date"/>
+        <element choice="1" label="Stage" max_length="40" name="stage" type="choice">
+            <choice>
+                <element label="Draft" sequence="1" value="Draft"/>
+                <element label="Requested" sequence="2" value="Requested"/>
+                <element label="Customer Approval" sequence="3" value="Customer Approval"/>
+                <element label="RCA Approved" sequence="4" value="RCA Approved"/>
+                <element label="Completed" sequence="5" value="Completed"/>
+                <element label="Rejected" sequence="6" value="Rejected"/>
+            </choice>
+        </element>
+        <element choice="1" label="State" max_length="40" name="state_rca" type="choice">
+            <choice>
+                <element label="New" sequence="1" value="1"/>
+                <element label="In Progress" sequence="2" value="2"/>
+                <element label="Awaiting Approval" sequence="3" value="3"/>
+                <element label="Complete" sequence="4" value="4"/>
+            </choice>
+        </element>
+    </element>
+</database>

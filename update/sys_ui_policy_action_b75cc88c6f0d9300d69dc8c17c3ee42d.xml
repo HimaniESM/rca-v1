@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>opened_at</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-03-19 16:22:04</sys_created_on>
+        <sys_id>b75cc88c6f0d9300d69dc8c17c3ee42d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>opened_at</sys_name>
+        <sys_package display_value="RCA Template" source="x_infte_rca_templa">443b91ff6f349300d69dc8c17c3ee407</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCA Template">443b91ff6f349300d69dc8c17c3ee407</sys_scope>
+        <sys_update_name>sys_ui_policy_action_b75cc88c6f0d9300d69dc8c17c3ee42d</sys_update_name>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-03-19 16:22:04</sys_updated_on>
+        <table>x_infte_rca_templa_rca_template_table</table>
+        <ui_policy display_value="Make fields Mandatory and ReadOnly">181962f34f78930053c240f18110c706</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

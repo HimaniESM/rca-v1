@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">bf0256c10b30030085c083eb37673ac0</action_type>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="ESM_RCA_TemplateValid2.0">ae5514326f011b00d69dc8c17c3ee461</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-03-28 06:11:38</sys_created_on>
+        <sys_id>810790726f011b00d69dc8c17c3ee4e1</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RCA Template" source="x_infte_rca_templa">443b91ff6f349300d69dc8c17c3ee407</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCA Template">443b91ff6f349300d69dc8c17c3ee407</sys_scope>
+        <sys_update_name>sys_hub_action_instance_810790726f011b00d69dc8c17c3ee4e1</sys_update_name>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-03-28 06:11:44</sys_updated_on>
+        <ui_id>5c7968e8-b317-49e1-981a-ed4fa96fdd18</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=810790726f011b00d69dc8c17c3ee4e1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>810790726f011b00d69dc8c17c3ee4e1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-03-28 06:11:39</sys_created_on>
+        <sys_id>9507d0726f011b00d69dc8c17c3ee417</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-03-28 06:11:39</sys_updated_on>
+        <value>problem</value>
+        <variable display_value="">b70256c10b30030085c083eb37673ac3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>810790726f011b00d69dc8c17c3ee4e1</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-03-28 06:11:39</sys_created_on>
+        <sys_id>c10790726f011b00d69dc8c17c3ee4e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-03-28 06:11:39</sys_updated_on>
+        <value>problem</value>
+        <variable display_value="">79305e810b30030085c083eb37673a85</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=810790726f011b00d69dc8c17c3ee4e1"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>810790726f011b00d69dc8c17c3ee4e1</id>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-03-28 06:11:39</sys_created_on>
+        <sys_id>5107d0726f011b00d69dc8c17c3ee417</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-03-28 06:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value>sys_id={{Updated_1.current.parent}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>810790726f011b00d69dc8c17c3ee4e1</id>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-03-28 06:11:39</sys_created_on>
+        <sys_id>8d0790726f011b00d69dc8c17c3ee4e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-03-28 06:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value>sys_id={{Updated_1.current.parent}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>810790726f011b00d69dc8c17c3ee4e1</id>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-03-28 06:11:39</sys_created_on>
+        <sys_id>1507d0726f011b00d69dc8c17c3ee417</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-03-28 06:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bf0256c10b30030085c083eb37673ac0</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>810790726f011b00d69dc8c17c3ee4e1</id>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-03-28 06:11:39</sys_created_on>
+        <sys_id>410790726f011b00d69dc8c17c3ee4e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-03-28 06:11:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_b93f42810b30030085c083eb37673a63</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

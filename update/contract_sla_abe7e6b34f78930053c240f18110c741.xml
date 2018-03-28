@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="contract_sla">
+    <contract_sla action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <cancel_condition/>
+        <collection>x_infte_rca_templa_rca_template_table</collection>
+        <condition_class/>
+        <duration>1970-01-04 00:00:00</duration>
+        <duration_type/>
+        <enable_logging>false</enable_logging>
+        <name>RCA Resolution 3Days</name>
+        <pause_condition table="x_infte_rca_templa_rca_template_table">state_rca=3^EQ<item endquery="false" field="state_rca" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </pause_condition>
+        <relative_duration_works_on>Task record</relative_duration_works_on>
+        <reset_action>cancel</reset_action>
+        <reset_condition/>
+        <resume_condition table="x_infte_rca_templa_rca_template_table">state_rca=2^EQ<item endquery="false" field="state_rca" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </resume_condition>
+        <retroactive>false</retroactive>
+        <retroactive_pause>true</retroactive_pause>
+        <schedule display_value="8-5 weekdays">08fcd0830a0a0b2600079f56b1adb9ae</schedule>
+        <schedule_source>sla_definition</schedule_source>
+        <schedule_source_field/>
+        <set_start_to>work_end</set_start_to>
+        <start_condition table="x_infte_rca_templa_rca_template_table">stage=Draft^state_rca=1^EQ<item endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value="Draft"/>
+            <item endquery="false" field="state_rca" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </start_condition>
+        <stop_condition table="x_infte_rca_templa_rca_template_table">state_rca=4^EQ<item endquery="false" field="state_rca" goto="false" newquery="false" operator="=" or="false" value="4"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </stop_condition>
+        <sys_class_name>contract_sla</sys_class_name>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-03-19 09:06:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>abe7e6b34f78930053c240f18110c741</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>RCA Resolution 3Days</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="RCA Template" source="x_infte_rca_templa">443b91ff6f349300d69dc8c17c3ee407</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCA Template">443b91ff6f349300d69dc8c17c3ee407</sys_scope>
+        <sys_update_name>contract_sla_abe7e6b34f78930053c240f18110c741</sys_update_name>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-03-19 09:06:52</sys_updated_on>
+        <target/>
+        <timezone/>
+        <timezone_source>task.caller_id.time_zone</timezone_source>
+        <type>SLA</type>
+        <when_to_cancel>on_condition</when_to_cancel>
+        <when_to_resume>on_condition</when_to_resume>
+        <workflow display_value="Default SLA workflow">4b6570360a0a0b3000bbacab877713f2</workflow>
+    </contract_sla>
+</record_update>

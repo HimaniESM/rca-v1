@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>ESM_RCA_TemplateValidation</description>
+        <label_cache>[{"name":"cc824199-fde7-49c5-9999-971fa5c8ddff.Record","label":"1➛Problem Record","reference":"problem","reference_display":"Problem","type":"reference","base_type":"reference"},{"name":"Created_1.current.parent","label":"Trigger➛RCA Template Table Record➛Parent","reference":"task","reference_display":"Parent","type":"reference","base_type":"reference","parent_table_name":"x_infte_rca_templa_rca_template_table","column_name":"parent"}]</label_cache>
+        <name>ESM_RCA_TemplateValidation</name>
+        <parent_flow display_value="ESM_RCA_TemplateValidation">056754726f011b00d69dc8c17c3ee4fb</parent_flow>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>Suganya_Nagarajan</sys_created_by>
+        <sys_created_on>2018-03-28 06:15:24</sys_created_on>
+        <sys_id>90e7d8726f011b00d69dc8c17c3ee480</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ESM_RCA_TemplateValidation</sys_name>
+        <sys_package display_value="RCA Template" source="x_infte_rca_templa">443b91ff6f349300d69dc8c17c3ee407</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RCA Template">443b91ff6f349300d69dc8c17c3ee407</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_90e7d8726f011b00d69dc8c17c3ee480</sys_update_name>
+        <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+        <sys_updated_on>2018-03-28 06:15:24</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

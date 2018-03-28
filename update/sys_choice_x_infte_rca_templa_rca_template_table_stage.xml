@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="stage" table="x_infte_rca_templa_rca_template_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_infte_rca_templa_rca_template_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>Suganya_Nagarajan</sys_created_by>
+            <sys_created_on>2018-03-19 03:35:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>37ec11736f749300d69dc8c17c3ee494</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-19 03:35:31</sys_updated_on>
+            <value>Draft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Requested</label>
+            <language>en</language>
+            <name>x_infte_rca_templa_rca_template_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>Suganya_Nagarajan</sys_created_by>
+            <sys_created_on>2018-03-19 03:35:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f3fc11736f749300d69dc8c17c3ee46f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-19 03:35:50</sys_updated_on>
+            <value>Requested</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Customer Approval</label>
+            <language>en</language>
+            <name>x_infte_rca_templa_rca_template_table</name>
+            <sequence>3</sequence>
+            <sys_created_by>Suganya_Nagarajan</sys_created_by>
+            <sys_created_on>2018-03-19 03:36:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ed1d51736f749300d69dc8c17c3ee4b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-19 03:36:07</sys_updated_on>
+            <value>Customer Approval</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>RCA Approved</label>
+            <language>en</language>
+            <name>x_infte_rca_templa_rca_template_table</name>
+            <sequence>4</sequence>
+            <sys_created_by>Suganya_Nagarajan</sys_created_by>
+            <sys_created_on>2018-03-19 03:36:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>352d91736f749300d69dc8c17c3ee474</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-19 03:36:25</sys_updated_on>
+            <value>RCA Approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Completed</label>
+            <language>en</language>
+            <name>x_infte_rca_templa_rca_template_table</name>
+            <sequence>5</sequence>
+            <sys_created_by>Suganya_Nagarajan</sys_created_by>
+            <sys_created_on>2018-03-19 03:36:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4a3d91736f749300d69dc8c17c3ee498</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-19 03:36:41</sys_updated_on>
+            <value>Completed</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rejected</label>
+            <language>en</language>
+            <name>x_infte_rca_templa_rca_template_table</name>
+            <sequence>6</sequence>
+            <sys_created_by>Suganya_Nagarajan</sys_created_by>
+            <sys_created_on>2018-03-19 03:36:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c64dd1736f749300d69dc8c17c3ee47c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-19 03:36:59</sys_updated_on>
+            <value>Rejected</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>stage</element>
+            <name>x_infte_rca_templa_rca_template_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>Suganya_Nagarajan</sys_created_by>
+            <sys_created_on>2018-03-19 03:35:31</sys_created_on>
+            <sys_id>9afc11736f749300d69dc8c17c3ee46b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>stage</sys_name>
+            <sys_package display_value="RCA Template" source="x_infte_rca_templa">443b91ff6f349300d69dc8c17c3ee407</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RCA Template">443b91ff6f349300d69dc8c17c3ee407</sys_scope>
+            <sys_update_name>sys_choice_x_infte_rca_templa_rca_template_table_stage</sys_update_name>
+            <sys_updated_by>Suganya_Nagarajan</sys_updated_by>
+            <sys_updated_on>2018-03-19 03:35:31</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
